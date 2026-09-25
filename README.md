@@ -2,7 +2,7 @@
 
 Анализ двух лет транзакций британского интернет-магазина из набора [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii). Цель — понять, как менялся объём продаж и насколько часто покупатели возвращались после первого наблюдаемого заказа.
 
-**[Открыть отчёт](https://github.com/morenoler/retail-sales-retention/blob/main/docs/report.pdf)** · [Помесячные показатели](output/monthly.csv) · [Когорты](output/cohorts.csv) · [SQL-запросы](sql/analysis.sql)
+**[Открыть отчёт](https://github.com/morenoler/retail-sales-retention/blob/main/docs/report.md)** · [Помесячные показатели](output/monthly.csv) · [Когорты](output/cohorts.csv) · [SQL-запросы](sql/analysis.sql)
 
 ![Проверки](https://github.com/morenoler/retail-sales-retention/actions/workflows/checks.yml/badge.svg)
 
