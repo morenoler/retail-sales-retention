@@ -1,0 +1,527 @@
+{
+  "quality": {
+    "unique_lines": 1044848,
+    "missing_customer_lines": 235287,
+    "cancellation_lines": 19165,
+    "nonpositive_quantity_lines": 22557,
+    "nonpositive_price_lines": 6029,
+    "missing_date_lines": 0,
+    "raw_lines": 1067371,
+    "overlap_lines": 22523,
+    "valid_sale_lines": 1019654
+  },
+  "monthly": [
+    {
+      "invoice_month": "2010-01",
+      "orders": 1105,
+      "identified_customers": 720,
+      "merchandise_value_gbp": 652708.5,
+      "average_order_value_gbp": 590.69
+    },
+    {
+      "invoice_month": "2010-02",
+      "orders": 1201,
+      "identified_customers": 772,
+      "merchandise_value_gbp": 553339.74,
+      "average_order_value_gbp": 460.73
+    },
+    {
+      "invoice_month": "2010-03",
+      "orders": 1681,
+      "identified_customers": 1057,
+      "merchandise_value_gbp": 833570.13,
+      "average_order_value_gbp": 495.88
+    },
+    {
+      "invoice_month": "2010-04",
+      "orders": 1462,
+      "identified_customers": 942,
+      "merchandise_value_gbp": 681528.99,
+      "average_order_value_gbp": 466.16
+    },
+    {
+      "invoice_month": "2010-05",
+      "orders": 1500,
+      "identified_customers": 966,
+      "merchandise_value_gbp": 659858.86,
+      "average_order_value_gbp": 439.91
+    },
+    {
+      "invoice_month": "2010-06",
+      "orders": 1645,
+      "identified_customers": 1041,
+      "merchandise_value_gbp": 752270.14,
+      "average_order_value_gbp": 457.31
+    },
+    {
+      "invoice_month": "2010-07",
+      "orders": 1529,
+      "identified_customers": 928,
+      "merchandise_value_gbp": 650712.94,
+      "average_order_value_gbp": 425.58
+    },
+    {
+      "invoice_month": "2010-08",
+      "orders": 1425,
+      "identified_customers": 911,
+      "merchandise_value_gbp": 697274.91,
+      "average_order_value_gbp": 489.32
+    },
+    {
+      "invoice_month": "2010-09",
+      "orders": 1839,
+      "identified_customers": 1145,
+      "merchandise_value_gbp": 924333.01,
+      "average_order_value_gbp": 502.63
+    },
+    {
+      "invoice_month": "2010-10",
+      "orders": 2301,
+      "identified_customers": 1497,
+      "merchandise_value_gbp": 1165483.91,
+      "average_order_value_gbp": 506.51
+    },
+    {
+      "invoice_month": "2010-11",
+      "orders": 2747,
+      "identified_customers": 1607,
+      "merchandise_value_gbp": 1470272.48,
+      "average_order_value_gbp": 535.23
+    },
+    {
+      "invoice_month": "2010-12",
+      "orders": 1559,
+      "identified_customers": 885,
+      "merchandise_value_gbp": 823746.14,
+      "average_order_value_gbp": 528.38
+    },
+    {
+      "invoice_month": "2011-01",
+      "orders": 1086,
+      "identified_customers": 741,
+      "merchandise_value_gbp": 691364.56,
+      "average_order_value_gbp": 636.62
+    },
+    {
+      "invoice_month": "2011-02",
+      "orders": 1100,
+      "identified_customers": 758,
+      "merchandise_value_gbp": 523631.89,
+      "average_order_value_gbp": 476.03
+    },
+    {
+      "invoice_month": "2011-03",
+      "orders": 1454,
+      "identified_customers": 974,
+      "merchandise_value_gbp": 717639.36,
+      "average_order_value_gbp": 493.56
+    },
+    {
+      "invoice_month": "2011-04",
+      "orders": 1246,
+      "identified_customers": 856,
+      "merchandise_value_gbp": 537808.62,
+      "average_order_value_gbp": 431.63
+    },
+    {
+      "invoice_month": "2011-05",
+      "orders": 1681,
+      "identified_customers": 1056,
+      "merchandise_value_gbp": 770536.02,
+      "average_order_value_gbp": 458.38
+    },
+    {
+      "invoice_month": "2011-06",
+      "orders": 1533,
+      "identified_customers": 991,
+      "merchandise_value_gbp": 761739.9,
+      "average_order_value_gbp": 496.89
+    },
+    {
+      "invoice_month": "2011-07",
+      "orders": 1475,
+      "identified_customers": 949,
+      "merchandise_value_gbp": 719221.19,
+      "average_order_value_gbp": 487.61
+    },
+    {
+      "invoice_month": "2011-08",
+      "orders": 1361,
+      "identified_customers": 935,
+      "merchandise_value_gbp": 759138.38,
+      "average_order_value_gbp": 557.78
+    },
+    {
+      "invoice_month": "2011-09",
+      "orders": 1837,
+      "identified_customers": 1266,
+      "merchandise_value_gbp": 1058590.17,
+      "average_order_value_gbp": 576.26
+    },
+    {
+      "invoice_month": "2011-10",
+      "orders": 2040,
+      "identified_customers": 1364,
+      "merchandise_value_gbp": 1154979.3,
+      "average_order_value_gbp": 566.17
+    },
+    {
+      "invoice_month": "2011-11",
+      "orders": 2769,
+      "identified_customers": 1664,
+      "merchandise_value_gbp": 1509496.33,
+      "average_order_value_gbp": 545.14
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort_month": "2010-01",
+      "customers": 383,
+      "m1": 20.6,
+      "m2": 31.1,
+      "m3": 30.5,
+      "m4": 26.4,
+      "m5": 30.0,
+      "m6": 25.8
+    },
+    {
+      "cohort_month": "2010-02",
+      "customers": 374,
+      "m1": 23.8,
+      "m2": 22.5,
+      "m3": 29.1,
+      "m4": 24.6,
+      "m5": 20.1,
+      "m6": 19.3
+    },
+    {
+      "cohort_month": "2010-03",
+      "customers": 443,
+      "m1": 19.0,
+      "m2": 23.0,
+      "m3": 24.2,
+      "m4": 23.3,
+      "m5": 20.3,
+      "m6": 24.6
+    },
+    {
+      "cohort_month": "2010-04",
+      "customers": 294,
+      "m1": 19.4,
+      "m2": 19.4,
+      "m3": 16.3,
+      "m4": 18.4,
+      "m5": 22.4,
+      "m6": 27.6
+    },
+    {
+      "cohort_month": "2010-05",
+      "customers": 254,
+      "m1": 15.7,
+      "m2": 16.9,
+      "m3": 17.3,
+      "m4": 17.7,
+      "m5": 25.6,
+      "m6": 21.3
+    },
+    {
+      "cohort_month": "2010-06",
+      "customers": 270,
+      "m1": 17.4,
+      "m2": 18.9,
+      "m3": 20.4,
+      "m4": 23.0,
+      "m5": 28.5,
+      "m6": 12.6
+    },
+    {
+      "cohort_month": "2010-07",
+      "customers": 186,
+      "m1": 15.6,
+      "m2": 18.3,
+      "m3": 29.6,
+      "m4": 29.0,
+      "m5": 14.0,
+      "m6": 11.3
+    },
+    {
+      "cohort_month": "2010-08",
+      "customers": 162,
+      "m1": 20.4,
+      "m2": 29.6,
+      "m3": 32.1,
+      "m4": 17.3,
+      "m5": 11.7,
+      "m6": 9.9
+    },
+    {
+      "cohort_month": "2010-09",
+      "customers": 243,
+      "m1": 22.6,
+      "m2": 23.5,
+      "m3": 12.3,
+      "m4": 9.1,
+      "m5": 10.3,
+      "m6": 13.6
+    },
+    {
+      "cohort_month": "2010-10",
+      "customers": 377,
+      "m1": 25.7,
+      "m2": 14.6,
+      "m3": 12.5,
+      "m4": 8.8,
+      "m5": 8.2,
+      "m6": 13.0
+    },
+    {
+      "cohort_month": "2010-11",
+      "customers": 325,
+      "m1": 17.5,
+      "m2": 9.2,
+      "m3": 9.5,
+      "m4": 7.7,
+      "m5": 8.6,
+      "m6": 12.9
+    },
+    {
+      "cohort_month": "2010-12",
+      "customers": 76,
+      "m1": 9.2,
+      "m2": 5.3,
+      "m3": 9.2,
+      "m4": 11.8,
+      "m5": 6.6,
+      "m6": 5.3
+    },
+    {
+      "cohort_month": "2011-01",
+      "customers": 71,
+      "m1": 16.9,
+      "m2": 21.1,
+      "m3": 19.7,
+      "m4": 21.1,
+      "m5": 15.5,
+      "m6": 15.5
+    },
+    {
+      "cohort_month": "2011-02",
+      "customers": 124,
+      "m1": 16.1,
+      "m2": 15.3,
+      "m3": 18.5,
+      "m4": 21.8,
+      "m5": 15.3,
+      "m6": 15.3
+    },
+    {
+      "cohort_month": "2011-03",
+      "customers": 179,
+      "m1": 18.4,
+      "m2": 21.8,
+      "m3": 20.1,
+      "m4": 22.3,
+      "m5": 15.1,
+      "m6": 20.7
+    },
+    {
+      "cohort_month": "2011-04",
+      "customers": 106,
+      "m1": 25.5,
+      "m2": 19.8,
+      "m3": 19.8,
+      "m4": 17.9,
+      "m5": 23.6,
+      "m6": 17.9
+    },
+    {
+      "cohort_month": "2011-05",
+      "customers": 111,
+      "m1": 23.4,
+      "m2": 24.3,
+      "m3": 16.2,
+      "m4": 21.6,
+      "m5": 20.7,
+      "m6": 26.1
+    }
+  ],
+  "countries": [
+    {
+      "country": "United Kingdom",
+      "orders": 36535,
+      "merchandise_value_gbp": 17465896.34
+    },
+    {
+      "country": "EIRE",
+      "orders": 626,
+      "merchandise_value_gbp": 659149.0
+    },
+    {
+      "country": "Netherlands",
+      "orders": 228,
+      "merchandise_value_gbp": 554039.74
+    },
+    {
+      "country": "Germany",
+      "orders": 789,
+      "merchandise_value_gbp": 425578.38
+    },
+    {
+      "country": "France",
+      "orders": 622,
+      "merchandise_value_gbp": 350654.18
+    },
+    {
+      "country": "Australia",
+      "orders": 95,
+      "merchandise_value_gbp": 169350.96
+    },
+    {
+      "country": "Spain",
+      "orders": 154,
+      "merchandise_value_gbp": 108383.81
+    },
+    {
+      "country": "Switzerland",
+      "orders": 93,
+      "merchandise_value_gbp": 100707.89
+    },
+    {
+      "country": "Sweden",
+      "orders": 105,
+      "merchandise_value_gbp": 91903.72
+    },
+    {
+      "country": "Denmark",
+      "orders": 43,
+      "merchandise_value_gbp": 68580.69
+    }
+  ],
+  "cancellations": [
+    {
+      "invoice_month": "2009-12",
+      "cancelled_invoices": 401,
+      "cancellation_value_gbp": 25838.65
+    },
+    {
+      "invoice_month": "2010-01",
+      "cancelled_invoices": 300,
+      "cancellation_value_gbp": 28675.61
+    },
+    {
+      "invoice_month": "2010-02",
+      "cancelled_invoices": 239,
+      "cancellation_value_gbp": 20621.88
+    },
+    {
+      "invoice_month": "2010-03",
+      "cancelled_invoices": 407,
+      "cancellation_value_gbp": 67721.37
+    },
+    {
+      "invoice_month": "2010-04",
+      "cancelled_invoices": 304,
+      "cancellation_value_gbp": 37354.2
+    },
+    {
+      "invoice_month": "2010-05",
+      "cancelled_invoices": 407,
+      "cancellation_value_gbp": 44536.03
+    },
+    {
+      "invoice_month": "2010-06",
+      "cancelled_invoices": 357,
+      "cancellation_value_gbp": 72483.53
+    },
+    {
+      "invoice_month": "2010-07",
+      "cancelled_invoices": 344,
+      "cancellation_value_gbp": 31444.79
+    },
+    {
+      "invoice_month": "2010-08",
+      "cancelled_invoices": 273,
+      "cancellation_value_gbp": 40498.57
+    },
+    {
+      "invoice_month": "2010-09",
+      "cancelled_invoices": 371,
+      "cancellation_value_gbp": 70682.58
+    },
+    {
+      "invoice_month": "2010-10",
+      "cancelled_invoices": 476,
+      "cancellation_value_gbp": 81389.69
+    },
+    {
+      "invoice_month": "2010-11",
+      "cancelled_invoices": 576,
+      "cancellation_value_gbp": 47617.84
+    },
+    {
+      "invoice_month": "2010-12",
+      "cancelled_invoices": 326,
+      "cancellation_value_gbp": 74789.12
+    },
+    {
+      "invoice_month": "2011-01",
+      "cancelled_invoices": 260,
+      "cancellation_value_gbp": 131364.3
+    },
+    {
+      "invoice_month": "2011-02",
+      "cancelled_invoices": 219,
+      "cancellation_value_gbp": 25569.24
+    },
+    {
+      "invoice_month": "2011-03",
+      "cancelled_invoices": 318,
+      "cancellation_value_gbp": 34372.28
+    },
+    {
+      "invoice_month": "2011-04",
+      "cancelled_invoices": 240,
+      "cancellation_value_gbp": 44601.5
+    },
+    {
+      "invoice_month": "2011-05",
+      "cancelled_invoices": 314,
+      "cancellation_value_gbp": 47202.51
+    },
+    {
+      "invoice_month": "2011-06",
+      "cancelled_invoices": 329,
+      "cancellation_value_gbp": 70616.78
+    },
+    {
+      "invoice_month": "2011-07",
+      "cancelled_invoices": 270,
+      "cancellation_value_gbp": 37921.08
+    },
+    {
+      "invoice_month": "2011-08",
+      "cancelled_invoices": 278,
+      "cancellation_value_gbp": 54333.75
+    },
+    {
+      "invoice_month": "2011-09",
+      "cancelled_invoices": 333,
+      "cancellation_value_gbp": 38902.55
+    },
+    {
+      "invoice_month": "2011-10",
+      "cancelled_invoices": 362,
+      "cancellation_value_gbp": 84274.63
+    },
+    {
+      "invoice_month": "2011-11",
+      "cancelled_invoices": 441,
+      "cancellation_value_gbp": 47740.08
+    },
+    {
+      "invoice_month": "2011-12",
+      "cancelled_invoices": 146,
+      "cancellation_value_gbp": 205124.67
+    }
+  ]
+}
