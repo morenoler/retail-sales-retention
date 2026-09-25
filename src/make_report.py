@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "retail.sqlite"
 OUT = ROOT / "output"
+SITE = ROOT / "docs"
 
 
 def rows(conn: sqlite3.Connection, query: str) -> list[dict]:
@@ -200,7 +201,10 @@ def main() -> None:
         result = calculate(conn)
     for key in ("monthly", "cohorts", "countries", "cancellations"):
         save_csv(OUT / f"{key}.csv", result[key])
-    (OUT / "dashboard.html").write_text(build_html(result), encoding="utf-8")
+    page = build_html(result)
+    (OUT / "dashboard.html").write_text(page, encoding="utf-8")
+    SITE.mkdir(exist_ok=True)
+    (SITE / "index.html").write_text(page, encoding="utf-8")
     (OUT / "summary.json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote dashboard and CSVs to {OUT}")
 

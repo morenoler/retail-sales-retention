@@ -2,7 +2,9 @@
 
 Анализ двух лет транзакций британского интернет-магазина из набора [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii). Цель — понять, как менялся объём продаж и насколько часто покупатели возвращались после первого наблюдаемого заказа.
 
-**[Открыть отчёт](output/dashboard.html)** · [Помесячные показатели](output/monthly.csv) · [Когорты](output/cohorts.csv) · [SQL-запросы](sql/analysis.sql)
+**[Открыть отчёт](https://morenoler.github.io/retail-sales-retention/)** · [Помесячные показатели](output/monthly.csv) · [Когорты](output/cohorts.csv) · [SQL-запросы](sql/analysis.sql)
+
+![Проверки](https://github.com/morenoler/retail-sales-retention/actions/workflows/checks.yml/badge.svg)
 
 ![Фрагмент отчёта](output/dashboard-preview.png)
 
@@ -36,7 +38,7 @@
 1. Скачайте `online_retail_II.xlsx` с [страницы UCI](https://archive.ics.uci.edu/dataset/502/online+retail+ii). Если файл скачался как ZIP, сохраните его как `data/raw/online_retail_ii.zip`. Если скачался как XLSX, упакуйте этот файл в ZIP с тем же именем. Внутри архива имя должно быть `online_retail_II.xlsx`.
 2. Установите зависимость: `python -m pip install -r requirements.txt`.
 3. Выполните `python src/build_db.py` — загрузка Excel в `data/retail.sqlite` занимает несколько минут.
-4. Выполните `python src/make_report.py` и откройте `output/dashboard.html` в браузере. Отчёт работает без сервера и внешних JS-библиотек.
+4. Выполните `python src/make_report.py` и откройте `output/dashboard.html` в браузере. Та же страница записывается в `docs/index.html` для GitHub Pages. Отчёт работает без сервера и внешних JS-библиотек.
 
 Скрипт также записывает CSV с помесячными показателями, когортами, странами и отменами. Исходный Excel и SQLite-база не добавляются в Git: они восстанавливаются приведёнными командами.
 
