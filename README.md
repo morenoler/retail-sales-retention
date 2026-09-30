@@ -50,5 +50,3 @@ sql/analysis.sql      Определения продаж, когорт и ос�
 src/make_report.py    Расчёт таблиц и создание HTML-отчёта
 output/               Готовый отчёт, CSV и превью
 ```
-
-**Источник и лицензия данных:** Daqing Chen, *Online Retail II*, UCI Machine Learning Repository, 2012, [DOI: 10.24432/C5CG6D](https://doi.org/10.24432/C5CG6D). Данные доступны по лицензии [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
